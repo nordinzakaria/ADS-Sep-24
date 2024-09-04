@@ -1,0 +1,14 @@
+C:\Users\nordinzakaria\source\repos\Week 1 ADS\Week 1 ADS\bin\Debug\net8.0\Week 1 ADS.exe
+C:\Users\nordinzakaria\source\repos\Week 1 ADS\Week 1 ADS\bin\Debug\net8.0\Week 1 ADS.deps.json
+C:\Users\nordinzakaria\source\repos\Week 1 ADS\Week 1 ADS\bin\Debug\net8.0\Week 1 ADS.runtimeconfig.json
+C:\Users\nordinzakaria\source\repos\Week 1 ADS\Week 1 ADS\bin\Debug\net8.0\Week 1 ADS.dll
+C:\Users\nordinzakaria\source\repos\Week 1 ADS\Week 1 ADS\bin\Debug\net8.0\Week 1 ADS.pdb
+C:\Users\nordinzakaria\source\repos\Week 1 ADS\Week 1 ADS\obj\Debug\net8.0\Week 1 ADS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nordinzakaria\source\repos\Week 1 ADS\Week 1 ADS\obj\Debug\net8.0\Week 1 ADS.AssemblyInfoInputs.cache
+C:\Users\nordinzakaria\source\repos\Week 1 ADS\Week 1 ADS\obj\Debug\net8.0\Week 1 ADS.AssemblyInfo.cs
+C:\Users\nordinzakaria\source\repos\Week 1 ADS\Week 1 ADS\obj\Debug\net8.0\Week 1 ADS.csproj.CoreCompileInputs.cache
+C:\Users\nordinzakaria\source\repos\Week 1 ADS\Week 1 ADS\obj\Debug\net8.0\Week 1 ADS.dll
+C:\Users\nordinzakaria\source\repos\Week 1 ADS\Week 1 ADS\obj\Debug\net8.0\refint\Week 1 ADS.dll
+C:\Users\nordinzakaria\source\repos\Week 1 ADS\Week 1 ADS\obj\Debug\net8.0\Week 1 ADS.pdb
+C:\Users\nordinzakaria\source\repos\Week 1 ADS\Week 1 ADS\obj\Debug\net8.0\Week 1 ADS.genruntimeconfig.cache
+C:\Users\nordinzakaria\source\repos\Week 1 ADS\Week 1 ADS\obj\Debug\net8.0\ref\Week 1 ADS.dll
