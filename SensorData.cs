@@ -80,6 +80,29 @@ class SensorData
         }
 
         // one more line here
+        temperature[0] = val;
     }
+
+
+    public void insert(int val, int index)
+    {
+
+    }
+
+    public void deleteFront(int index)
+    {
+
+    }
+
+    public void deleteBack(int index)
+    {
+
+    }
+
+
+    public void delete(int index)
+    {
+
+    } 
 
 }
