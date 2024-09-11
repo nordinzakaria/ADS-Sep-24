@@ -8,7 +8,7 @@ class SensorData
   {
     // data
     int[] temperature;  // array
-    int NumDrones;
+    int NumDrones;  // size, can also use as an index
     Random rnd = new Random();
 
     public SensorData(int MaxNumDrones) {
@@ -62,6 +62,24 @@ class SensorData
         {
             Console.WriteLine(temperature[i]);
         }
+    }
+
+    // add the back a new temperature value
+    public void append(int val)
+    {
+        temperature[NumDrones] = val;
+        NumDrones = NumDrones + 1
+    }
+
+    public void appendFront(int val)
+    {
+        // shift to the right
+        for (int i=NumDrones-1; i>=0; i--)
+        {
+            temperature[i] = val;
+        }
+
+
     }
 
 }
