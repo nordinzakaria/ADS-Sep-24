@@ -44,8 +44,7 @@ class SensorData
         {
             if (temperature[i] > maxval)
             {
-                maxval = temperature[i];
-            }
+                maxval = temperature[i]; 
         }
 
         return maxval; 
