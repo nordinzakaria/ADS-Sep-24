@@ -7,35 +7,57 @@ using System.Threading.Tasks;
 class SensorData
   {
     // data
-    int[] temp;
+    int[] temperature;  // array
     int NumDrones;
     Random rnd = new Random();
 
     public SensorData(int NumDrones) {
-        temp = new int[NumDrones];
+        temperature = new int[NumDrones];
         this.NumDrones = NumDrones;
     }
 
-    public void init()
+    public void read()
     {
         for (int j = 0; j < NumDrones; j++)
         {
-            temp[j] = rnd.Next(40);//returns random integers < 10
+            temperature[j] = rnd.Next(40);//returns random integers < 10
         }
     }
 
     public float average()
     {
-        return 0;
+        int sum = 0;
+        for (int i=0; i < NumDrones; i++) // go one array item after another
+        {
+            sum += temperature[i];
+        }
+
+        float avg = sum / NumDrones;
+
+        return avg;
     }
 
     public int max()
     {
-        return 0; 
+        int maxval = temperature[0];
+        for (int i =0; i<temperature.Length; i++)
+        {
+            if (temperature[i] > maxval)
+            {
+                maxval = temperature[i];
+            }
+        }
+
+        return maxval; 
     }
 
     public int min()
     {
         return 0;
     }
+
+    public void print()
+    { 
+    }
+
 }
