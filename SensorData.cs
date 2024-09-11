@@ -11,13 +11,13 @@ class SensorData
     int NumDrones;
     Random rnd = new Random();
 
-    public SensorData(int NumDrones) {
-        temperature = new int[NumDrones];
-        this.NumDrones = NumDrones;
+    public SensorData(int MaxNumDrones) {
+        temperature = new int[MaxNumDrones];
     }
 
-    public void read()
+    public void read(int NumDrones)
     {
+        this.NumDrones = NumDrones;
         for (int j = 0; j < NumDrones; j++)
         {
             temperature[j] = rnd.Next(40);//returns random integers < 10
@@ -40,7 +40,7 @@ class SensorData
     public int max()
     {
         int maxval = temperature[0];
-        for (int i =0; i<temperature.Length; i++)
+        for (int i =0; i<NumDrones; i++)
         {
             if (temperature[i] > maxval)
             {

@@ -6,15 +6,15 @@ class Program
         {
             Console.WriteLine("Hello, World!");
 
-            int NumSensor = 10;
-            SensorData sd = new SensorData(NumSensor);
+            int MaxNumSensor = 100;
+            SensorData sd = new SensorData(MaxNumSensor);
 
             float total = 0;
                 // run sensor reading every second for 1 day
             int numSec = 60 * 60 * 24;
             for (int t = 0; t < numSec; t++)            
             {
-                sd.read();
+                sd.read(10);
                 sd.print();
 
                 var watch = new System.Diagnostics.Stopwatch();
