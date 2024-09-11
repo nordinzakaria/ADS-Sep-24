@@ -76,10 +76,10 @@ class SensorData
         // shift to the right
         for (int i=NumDrones-1; i>=0; i--)
         {
-            temperature[i] = val;
+            temperature[i+1] = temperature[i];
         }
 
-
+        // one more line here
     }
 
 }
