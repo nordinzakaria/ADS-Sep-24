@@ -57,7 +57,11 @@ class SensorData
     }
 
     public void print()
-    { 
+    {
+        for (int i = 0; i < NumDrones; i++)
+        {
+            Console.WriteLine(temperature[i]);
+        }
     }
 
 }

@@ -12,3 +12,4 @@ C:\Users\nordinzakaria\source\repos\Week 1 ADS\Week 1 ADS\obj\Debug\net8.0\refin
 C:\Users\nordinzakaria\source\repos\Week 1 ADS\Week 1 ADS\obj\Debug\net8.0\Week 1 ADS.pdb
 C:\Users\nordinzakaria\source\repos\Week 1 ADS\Week 1 ADS\obj\Debug\net8.0\Week 1 ADS.genruntimeconfig.cache
 C:\Users\nordinzakaria\source\repos\Week 1 ADS\Week 1 ADS\obj\Debug\net8.0\ref\Week 1 ADS.dll
+C:\Users\nordinzakaria\source\repos\Week 1 ADS\Week 1 ADS\obj\Debug\net8.0\Week 1 ADS.sourcelink.json
